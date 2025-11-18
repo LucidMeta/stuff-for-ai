@@ -1,0 +1,29 @@
+{
+  "parent": "tensura:hiss_tory",
+  "criteria": {
+    "custom": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "tensura.advancements.great_saint_of_the_west.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "tensura:moonlight",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "tensura.advancements.great_saint_of_the_west.title"
+    }
+  },
+  "requirements": [
+    [
+      "custom"
+    ]
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "com/github/manasmods/manascore/core/AbstractContainerScreenAccessor": {
+      "imageWidth": "f_97726_:I"
+    },
+    "com/github/manasmods/manascore/core/MixinServerLevel": {
+      "Lnet/minecraft/server/level/ServerLevel;getProfiler()Lnet/minecraft/util/profiling/ProfilerFiller;": "Lnet/minecraft/server/level/ServerLevel;m_46473_()Lnet/minecraft/util/profiling/ProfilerFiller;",
+      "tickChunk": "Lnet/minecraft/server/level/ServerLevel;m_8714_(Lnet/minecraft/world/level/chunk/LevelChunk;I)V"
+    },
+    "com/github/manasmods/manascore/core/MixinLivingEntity": {
+      "getFrictionInfluencedSpeed": "Lnet/minecraft/world/entity/LivingEntity;m_21330_(F)F"
+    },
+    "com/github/manasmods/manascore/core/ShapedRecipeBuilderAccessor": {
+      "advancement": "f_126110_:Lnet/minecraft/advancements/Advancement$Builder;"
+    },
+    "com/github/manasmods/manascore/core/MixinMinecraft": {
+      "startAttack": "Lnet/minecraft/client/Minecraft;m_202354_()Z",
+      "Lnet/minecraft/client/player/LocalPlayer;resetAttackStrengthTicker()V": "Lnet/minecraft/client/player/LocalPlayer;m_36334_()V"
+    },
+    "com/github/manasmods/manascore/core/BlockLootAccessor": {
+      "NORMAL_LEAVES_STICK_CHANCES": "f_236220_:[F",
+      "JUNGLE_LEAVES_SAPLING_CHANGES": "f_124069_:[F",
+      "NORMAL_LEAVES_SAPLING_CHANCES": "f_124068_:[F"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/github/manasmods/manascore/core/AbstractContainerScreenAccessor": {
+        "imageWidth": "f_97726_:I"
+      },
+      "com/github/manasmods/manascore/core/MixinServerLevel": {
+        "Lnet/minecraft/server/level/ServerLevel;getProfiler()Lnet/minecraft/util/profiling/ProfilerFiller;": "Lnet/minecraft/server/level/ServerLevel;m_46473_()Lnet/minecraft/util/profiling/ProfilerFiller;",
+        "tickChunk": "Lnet/minecraft/server/level/ServerLevel;m_8714_(Lnet/minecraft/world/level/chunk/LevelChunk;I)V"
+      },
+      "com/github/manasmods/manascore/core/MixinLivingEntity": {
+        "getFrictionInfluencedSpeed": "Lnet/minecraft/world/entity/LivingEntity;m_21330_(F)F"
+      },
+      "com/github/manasmods/manascore/core/ShapedRecipeBuilderAccessor": {
+        "advancement": "f_126110_:Lnet/minecraft/advancements/Advancement$Builder;"
+      },
+      "com/github/manasmods/manascore/core/MixinMinecraft": {
+        "startAttack": "Lnet/minecraft/client/Minecraft;m_202354_()Z",
+        "Lnet/minecraft/client/player/LocalPlayer;resetAttackStrengthTicker()V": "Lnet/minecraft/client/player/LocalPlayer;m_36334_()V"
+      },
+      "com/github/manasmods/manascore/core/BlockLootAccessor": {
+        "NORMAL_LEAVES_STICK_CHANCES": "f_236220_:[F",
+        "JUNGLE_LEAVES_SAPLING_CHANGES": "f_124069_:[F",
+        "NORMAL_LEAVES_SAPLING_CHANCES": "f_124068_:[F"
+      }
+    }
+  }
+}

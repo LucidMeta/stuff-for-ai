@@ -1,0 +1,32 @@
+modLoader = "javafml" #mandatory
+loaderVersion = "[43,)"
+license = "GPL-3"
+issueTrackerURL = "https://github.com/ManasMods/ManasCore/issues" #optional
+[[mods]] #mandatory
+modId = "manascore" #mandatory
+version = "2.1.4.6"
+displayName = "ManasCore" #mandatory
+updateJSONURL="https://api.modrinth.com/updates/wRRSWpd1/forge_updates.json" #optional
+displayURL="https://github.com/ManasMods/ManasCore/wiki" #optional
+logoFile="logo.jpg" #optional
+#credits="Thanks for this example mod goes to Java" #optional
+authors = "ManasMods" #optional
+description = '''
+Utility and Core Library for Manas Mods
+'''
+#@formatter:off
+[[dependencies.manascore]] #optional
+   modId="forge" #mandatory
+   mandatory=true #mandatory
+   versionRange="[43,)" #mandatory
+   ordering="NONE"
+   side="BOTH"
+# Here's another dependency
+[[dependencies.manascore]]
+   modId="minecraft"
+   mandatory=true
+   # This version range declares a minimum of the current minecraft version up to but not including the next major version
+   versionRange="[1.19.2,1.20)"
+   ordering="NONE"
+   side="BOTH"
+##@formatter:on

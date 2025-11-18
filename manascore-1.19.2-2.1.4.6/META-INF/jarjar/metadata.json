@@ -1,0 +1,40 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "io.github.llamalad7",
+        "artifact": "mixinextras-forge"
+      },
+      "version": {
+        "range": "[0.2.0,)",
+        "artifactVersion": "0.2.0"
+      },
+      "path": "META-INF/jarjar/mixinextras-forge-0.2.0.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.lowdragmc.photon",
+        "artifact": "photon-forge-1.19.2"
+      },
+      "version": {
+        "range": "[1.0.7.a,)",
+        "artifactVersion": "1.0.7.a"
+      },
+      "path": "META-INF/jarjar/photon-forge-1.19.2-1.0.7.a.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.lowdragmc.ldlib",
+        "artifact": "ldlib-forge-1.19.2"
+      },
+      "version": {
+        "range": "[1.0.22,)",
+        "artifactVersion": "1.0.22"
+      },
+      "path": "META-INF/jarjar/ldlib-forge-1.19.2-1.0.22.jar",
+      "isObfuscated": false
+    }
+  ]
+}

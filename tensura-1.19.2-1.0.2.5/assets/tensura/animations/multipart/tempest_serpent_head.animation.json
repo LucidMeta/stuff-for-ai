@@ -1,0 +1,239 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tempest_serpent.idle": {
+			"loop": true
+		},
+		"animation.tempest_serpent.tongue": {
+			"animation_length": 0.75,
+			"bones": {
+				"Head": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Mouth": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [5, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Tounge": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.2083": {
+							"vector": [0, -4, -6]
+						},
+						"0.375": {
+							"vector": [0, -3.25, -10]
+						},
+						"0.75": {
+							"vector": [0, -3.25, 0]
+						}
+					}
+				},
+				"Tounge3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [7, 0, 0]
+						},
+						"0.2083": {
+							"vector": [2.5, 0, 0]
+						},
+						"0.375": {
+							"vector": [12.5, 0, 0]
+						}
+					}
+				},
+				"Tounge4": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [10, 0, 0]
+						},
+						"0.375": {
+							"vector": [37.5, 0, 0]
+						},
+						"0.4583": {
+							"vector": [1.2982, 0.27624, -0.1392]
+						},
+						"0.5417": {
+							"vector": [5.0964, 0.55248, -0.2784]
+						},
+						"0.5833": {
+							"vector": [14.60122, 0.5801, -0.29232]
+						},
+						"0.6667": {
+							"vector": [9.86086, 0.63535, -0.32016]
+						},
+						"0.75": {
+							"vector": [-9.8795, 0.6906, -0.348]
+						}
+					}
+				},
+				"Tounge5": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.2083": {
+							"vector": [-50, 0, 0]
+						},
+						"0.375": {
+							"vector": [-15, 0, 0]
+						},
+						"0.5833": {
+							"vector": [-82.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [-37.5, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.tempest_serpent.bite": {
+			"animation_length": 0.2917,
+			"bones": {
+				"Mouth": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [32.5, 0, 0]
+						},
+						"0.1667": {
+							"vector": [32.5, 0, 0]
+						},
+						"0.2083": {
+							"vector": [32.5, 0, 0]
+						},
+						"0.2917": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Tounge": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [0, -4.75, 0]
+						}
+					}
+				},
+				"Tounge3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Tounge4": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [-20, 0, 0]
+						},
+						"0.2917": {
+							"vector": [-7.5, 0, 0]
+						}
+					}
+				},
+				"Tounge5": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [-37.5, 0, 0]
+						},
+						"0.2917": {
+							"vector": [-15, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.tempest_serpent.breath": {
+			"loop": true,
+			"animation_length": 0.6667,
+			"bones": {
+				"Mouth": {
+					"rotation": {
+						"vector": [32.5, 0, 0]
+					}
+				},
+				"Tounge": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, -4.75, 0]
+					}
+				},
+				"Tounge3": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Tounge4": {
+					"rotation": {
+						"0.0": {
+							"vector": [-7.5, 0, 0]
+						},
+						"0.25": {
+							"vector": [-2.5, 0, 0]
+						},
+						"0.5": {
+							"vector": [-7.5, 0, 0]
+						}
+					}
+				},
+				"Tounge5": {
+					"rotation": {
+						"0.0": {
+							"vector": [-15, 0, 0]
+						},
+						"0.3333": {
+							"vector": [-57.5, 0, 0]
+						},
+						"0.6667": {
+							"vector": [-15, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

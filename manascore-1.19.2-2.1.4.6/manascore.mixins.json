@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.manasmods.manascore.core",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "manascore.refmap.json",
+  "mixins": [
+    "BlockLootAccessor",
+    "MixinLivingEntity",
+    "MixinServerLevel",
+    "RegistryBuilderAccessor",
+    "ShapedRecipeBuilderAccessor"
+  ],
+  "client": [
+    "AbstractContainerScreenAccessor",
+    "MixinMinecraft"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: manascore
+Specification-Vendor: ManasMods
+Specification-Version: 1
+Implementation-Title: ManasCore
+Implementation-Version: 1.19.2-2.1.4.6
+Implementation-Vendor: ManasMods
+Implementation-Timestamp: 2025-03-05T14:42:20+0700
+MixinConfigs: manascore.mixins.json
+

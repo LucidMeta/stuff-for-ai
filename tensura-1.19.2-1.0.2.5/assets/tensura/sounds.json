@@ -1,0 +1,368 @@
+{
+  "small_jump_impact": {
+    "sounds": [
+      {
+        "name": "tensura:others/small_jump_impact",
+        "category": "block",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.small_jump_impact"
+  },
+  "bird_death": {
+    "sounds": [
+      {
+        "name": "mob/parrot/death1",
+        "pitch": 0.9,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "mob/parrot/death2",
+        "pitch": 0.9,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "mob/parrot/death3",
+        "pitch": 0.9,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "mob/parrot/death4",
+        "pitch": 0.7,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.bird_death"
+  },
+  "bird_flap": {
+    "sounds": [
+      {
+        "name": "mob/phantom/flap1",
+        "volume": 0.9,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "mob/phantom/flap2",
+        "volume": 0.9,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "mob/phantom/flap3",
+        "volume": 0.9,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "mob/phantom/flap4",
+        "volume": 0.9,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "mob/phantom/flap5",
+        "volume": 0.9,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "mob/phantom/flap6",
+        "volume": 0.9,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.bird_flap"
+  },
+  "bird_hurt": {
+    "sounds": [
+      {
+        "name": "mob/parrot/hurt1",
+        "pitch": 0.8
+      },
+      {
+        "name": "mob/parrot/hurt1",
+        "pitch": 0.9
+      },
+      {
+        "name": "mob/parrot/hurt2",
+        "pitch": 0.9
+      }
+    ],
+    "subtitle": "sounds.tensura.bird_hurt"
+  },
+  "caterpillar_ambient": {
+    "sounds": [
+      {
+        "name": "tensura:mobs/caterpillar_ambient",
+        "category": "hostile",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.caterpillar_ambient"
+  },
+  "eat": {
+    "sounds": [
+      {
+        "name": "tensura:others/eat",
+        "category": "player",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.eating_sound"
+  },
+  "small_chew": {
+    "sounds": [
+      {
+        "name": "tensura:others/small_chew",
+        "category": "player",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.small_chew"
+  },
+  "lizard_ambient": {
+    "sounds": [
+      {
+        "name": "tensura:mobs/lizard_ambient",
+        "category": "neutral",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.lizard_ambient"
+  },
+  "lizard_baby_ambient": {
+    "sounds": [
+      {
+        "name": "tensura:mobs/lizard_baby_ambient",
+        "category": "neutral",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.lizard_baby_ambient"
+  },
+  "lizard_hurt": {
+    "sounds": [
+      {
+        "name": "tensura:mobs/lizard_hurt",
+        "category": "neutral",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.lizard_hurt"
+  },
+  "lizard_angry": {
+    "sounds": [
+      {
+        "name": "tensura:mobs/lizard_angry",
+        "category": "neutral",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.lizard_angry"
+  },
+  "moth_ambient": {
+    "sounds": [
+      {
+        "name": "tensura:mobs/moth_ambient",
+        "category": "hostile",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.moth_ambient"
+  },
+  "moth_hurt": {
+    "sounds": [
+      {
+        "name": "tensura:mobs/moth_hurt",
+        "category": "hostile",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.moth_hurt"
+  },
+  "moth_death": {
+    "sounds": [
+      {
+        "name": "tensura:mobs/moth_death",
+        "category": "hostile",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.moth_death"
+  },
+  "owl_ambient": {
+    "sounds": [
+      {
+        "name": "tensura:mobs/owl_ambient",
+        "category": "neutral",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.owl_ambient"
+  },
+  "peacock_ambient": {
+    "sounds": [
+      {
+        "name": "tensura:mobs/peacock_ambient",
+        "category": "neutral",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ],
+    "subtitle": "sounds.tensura.peacock_ambient"
+  },
+  "nanoda": {
+    "sounds": [
+      {
+        "name": "tensura:records/nanoda",
+        "category": "record",
+        "stream": true,
+        "volume": 0.25,
+        "pitch": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "cave19": {
+    "sounds": [
+      {
+        "name": "tensura:ambient/cave19",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "animal1": {
+    "sounds": [
+      {
+        "name": "tensura:ambient/animal1",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "dark1": {
+    "sounds": [
+      {
+        "name": "tensura:ambient/dark1",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "dark4": {
+    "sounds": [
+      {
+        "name": "tensura:ambient/dark4",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "voices3": {
+    "sounds": [
+      {
+        "name": "tensura:ambient/voices3",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "voices4": {
+    "sounds": [
+      {
+        "name": "tensura:ambient/voices4",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "whisper1": {
+    "sounds": [
+      {
+        "name": "tensura:ambient/whisper1",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "addition6": {
+    "sounds": [
+      {
+        "name": "tensura:ambient/addition6",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "driplets1": {
+    "sounds": [
+      {
+        "name": "tensura:ambient/driplets1",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "heartbeat1": {
+    "sounds": [
+      {
+        "name": "tensura:ambient/heartbeat1",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "heartbeat2": {
+    "sounds": [
+      {
+        "name": "tensura:heartbeat2",
+        "category": "ambient",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 10
+      }
+    ]
+  }
+}
